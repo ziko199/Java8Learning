@@ -20,7 +20,6 @@ public class ConsumerExample {
 
     static List<Student> studentList = StudentDataBase.getAllStudents();
 
-
     // print the list of student using consumer
     public static void printStudents() {
         studentList.forEach(studentConsumer);
