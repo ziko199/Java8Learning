@@ -8,10 +8,10 @@ import java.util.function.Predicate;
 
 public class PredicateStudentExample {
 
-    static  Predicate<Student> studentPredicate = (student)
+    static Predicate<Student> studentPredicate = (student)
             -> student.getGradeLevel() >= 3;
 
-    static  Predicate<Student> studentPredicate2 = (student)
+    static Predicate<Student> studentPredicate2 = (student)
             -> student.getGpa() >= 3.9;
 
     static List<Student> studentList = StudentDataBase.getAllStudents();
