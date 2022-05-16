@@ -1,0 +1,10 @@
+Lambda is a method without a name as known as anonymous function and mot tied to any class.
+it has: Method parameters
+        Method body
+        return type
+
+Lambda Expression: (parameters) -> {body}
+
+it is mainly used to implement functional interfaces (SAM -- Single Abstract Method interfaces)
+
+
